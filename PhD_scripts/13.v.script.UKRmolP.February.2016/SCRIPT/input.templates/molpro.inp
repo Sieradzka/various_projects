@@ -1,0 +1,27 @@
+***,>>>MOLECULE<<< with >>>BASISNAME<<< basis
+! Memory,6500000;
+ Memory,400000000;
+ Gprint,basis;                                                                  ! Print basis information
+ Gprint,civector;                                                               ! Print CI vector in MCSCF
+ Gprint,orbital;                                                                ! Print orbitals in SCF and MCSCF
+>>>ANGSTROM<<<
+>>>SYMOP<<<
+basis=>>>BASIS<<< 									
+geometry={
+>>>GEOMETRY<<<
+}
+										! method = >>>METHOD<<<
+{hf;
+orbprint,>>>HFORBPRINT<<<;}							! save on record 2100.2; e.g. {hf; orbital,2100.2; orbprint,-1;}
+
+>>>CASSCF<<<
+
+>>>ADDITIONAL<<<
+
+>>>CASWF<<<                                                                 	! State-averaged orbitals
+                                                                 		! save density matrices for the averaged states
+>>>ALLWF<<<									! State-averaged, not optimized orbitals
+
+>>>PRINT<<< 									! {matrop; load,dm,den,2140.2; write,dm;}
+										! save,dm,2140.2,DENSITY;}
+put,molden,>>>MOLECULE<<<.molden;

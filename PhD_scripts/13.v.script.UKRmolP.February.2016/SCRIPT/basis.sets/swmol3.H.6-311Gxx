@@ -1,0 +1,19 @@
+&atom
+  atcord = >>>XXX<<<, >>>YYY<<<, >>>ZZZ<<<,
+  atnam = 'H',  ! atom - symbol
+  q = 1,        ! atomic number
+  iqm = 2,      ! s,p,d - number of atomic symmetries
+  jco = 1,1,  ! number of sub blocks for each symmetry.
+! HYDROGEN       (5s,1p) -> [3s,1p]
+! HYDROGEN       (5s)->[3s]
+! HYDROGEN       (1p)
+/
+    5    3    0
+     33.8650000              0.0254938              0.0000000              0.0000000        
+      5.0947900              0.1903730              0.0000000              0.0000000        
+      1.1587900              0.8521610              0.0000000              0.0000000        
+      0.3258400              0.0000000              1.0000000              0.0000000        
+      0.1027410              0.0000000              0.0000000              1.0000000        
+    1    1    0
+      0.7500000              1.0000000        
+/

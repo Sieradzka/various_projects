@@ -1,0 +1,10 @@
+&molb
+    title1 = 'Atomic Basis Sets for >>>MOLECULE<<<',
+    title2 = 'Basis set used is >>>BASIS<<<',
+    id3 = >>>R_UNIT<<<,    ! Length units are 1 for Angstrom, 0 for au.
+    natype = >>>NATYPE<<<, ! Number of non symmetrically redundant centers
+    nsymop = >>>NSYMOP<<<, ! Number of symmetry operations
+    symop = >>>SYMOP<<<,   ! Symmetry operations generating the symmetry group
+&end
+>>>ATOMS<<<
+

@@ -1,0 +1,16 @@
+&state
+  sname = '>>>MOLECULE<<< - >>>SPIN<<< >>>SYMMETRY<<<',
+  megul = >>>MEGUL<<<, ! unit to which output is saved
+  iscat = >>>ISCAT<<<,  ! no phase correction necessary for target
+  symtyp = >>>SYMTYP<<<, ! D2h, C2v, etc. are of sym. type 2
+  qntot  = >>>QNTOT<<<, ! triplet of numbers, e.g. 1,0,0 means 1 = Singlet, 0 = A1, etc
+  nelect = >>>NELECT<<<, ! number of electrons
+  nob  = >>>NOB<<<, ! total number of orbitals for each symmetry
+  nob0 = >>>NOB0<<<, ! number of target orbitals for each symmetry
+  nbmx = 40000000, !Number of Mwords memory allocated for CSF generation
+  nrefo = >>>NREFO<<<, ! Number of quintets in reforb
+  reforb = >>>REFORB<<<, ! reference determinant
+  lndo = >>>LNDO<<<, ! memory control
+  lcdo = 2000, ! memory control
+!  NPFLG(3)=1, 
+&end

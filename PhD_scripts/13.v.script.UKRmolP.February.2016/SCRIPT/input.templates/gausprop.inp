@@ -1,0 +1,5 @@
+&gausprop
+  name = '>>>MOLECULE<<< - Property integrals',
+  iget = >>>IGET<<<,
+  ipflg = 1,
+&end

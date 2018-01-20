@@ -1,0 +1,10 @@
+&input
+molpro_file = '>>>MOLPROOUTPUT<<<'
+swmos_in    = '>>>SWEDMOSINPUT<<<'
+title = '>>>MOLECULE<<<'
+nobt  = >>>NOBT<<<, !number of orbitals in each symmetry
+ztail = >>>ZTAIL<<<,
+iu1el = 2, ! input from swmol3
+&end
+&header
+&end

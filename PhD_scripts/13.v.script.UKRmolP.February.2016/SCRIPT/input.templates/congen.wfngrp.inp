@@ -1,0 +1,13 @@
+&wfngrp
+  gname = '>>>GNAME<<<',
+  qntar = >>>QNTAR<<<, ! coupling control
+  nelecg = >>>NELECG<<<, ! number of electrons to distribute among configurations
+  nrefog = >>>NREFOG<<<, ! number of reference determinants
+  reforg = >>>REFORG<<<, ! movable electrons
+  ndprod = >>>NDPROD<<<, ! number of sets of shells
+  nelecp = >>>NELECP<<<, ! number of electrons in each set
+  nshlp  = >>>NSHLP<<<,  ! number of shells (triplets) in each set
+  pqn  = >>>PQN<<<, ! orbitals in each shell
+  mshl = >>>MSHL<<<, ! symmetry of shells above 
+  npcupf = 1, ! print coupling information
+&end

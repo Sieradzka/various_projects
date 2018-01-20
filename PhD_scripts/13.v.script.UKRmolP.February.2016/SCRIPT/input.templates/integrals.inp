@@ -1,0 +1,21 @@
+&target_data
+  a = >>>RMATR<<<, !radius of R-matrix sphere
+  no_sym_op = >>>NSYMOP<<<,
+  sym_op = >>>SYMOP<<<,
+  molden_file = './>>>MOLECULE<<<.molden'
+  nob = >>>NOB<<<,
+&end
+&continuum_data
+>>>!<<<  run_free_scattering = .false.,
+>>>!<<<  del_thrs = >>>DELTHRES<<<, ! deletion threshold
+>>>!<<<  max_l = >>>MAXL<<<, !max number of partial waves
+>>>CONTINUUM<<<
+&end
+&process_control
+  n_mpi_per_numa = 1
+  do_two_particle_integrals = .true. !.false.
+  save_ao_integrals_to_disk = .false. !.true.
+  ao_integrals_file_name = './atomic_integrals'
+  mo_integrals_file_name = './molecular_integrals'
+  use_spherical_cgto_alg = .true.
+&end

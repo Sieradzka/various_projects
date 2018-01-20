@@ -1,0 +1,5 @@
+4 & 5 version - MOLPRO input and HAMDIAG was added
+6 version - calculation for scattering CONGEN/SCATCI/OUTERRES are running parallel for all irred. symm.
+7 version - added UKRmol+ but WITHOUT parallel running for all irred. symm. Script for UKRmol and UKRmol+ calculations!
+8 version - with UKRmol+ and with parallel running for all irred. symm. (with the switch oprion). Script for UKRmol and UKRmol+ calculations! A personal settings (i.e. e-mail address and buck up directory) have been added.
+9 version - Script ONLY for UKRmol+ calculations!

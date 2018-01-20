@@ -1,0 +1,8 @@
+&scf
+  title = '>>>MOLECULE<<< - SCF Calculation'
+  conv = 1.E-11, ! convergence criterium
+  maxit = 99,    ! maximum number of iterations
+  iocc = >>>IOCC<<<,   ! occupied orbitals for each symmetry
+  ifock = >>>IFOCK<<<, ! occupancy of orbitals in iocc, 1 = full, 2 = half full
+  iparm(5) = 1,  ! do not read any trial vectors
+&end

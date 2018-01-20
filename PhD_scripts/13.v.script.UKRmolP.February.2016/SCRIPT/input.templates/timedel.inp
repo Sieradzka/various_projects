@@ -1,0 +1,23 @@
+&TIME
+  adapt = .true.
+  einit = >>>EINIT<<<,
+  efinal = >>>EFINAL<<<,
+&END
+&RSLVIN
+  name = '>>>MOLECULE<<< - >>>SPIN<<< >>>SYMMETRY<<< - K-matrices',
+  mgvn = >>>MGVN<<<,			! symmetry
+  stot = >>>STOT<<<,			! spin multiplicity 2*S+1
+  newbut = 0,			! Buttle correction - 0 in polyatomic codes
+  nerang = >>>NERANG<<<,          		! number of energy subranges
+  nescat = >>>NESCAT<<<,          	! number of input scattering energies in each subrange
+  einc = >>>EINC<<<,     	! scattering energies - initial energy, energy increment, there can be more subranges
+  ieunit = >>>IEUNIT<<<,			! energy unit - 1 = Ryd, 2 = eV
+  ikform = 'F',			! formatted/unformatted switch for unit LUKMT = 19 (K-matrix)
+!  icform = 'F',
+!  irform = 'F',
+  ismax = >>>ISMAX<<<,			! maximum multipole to be retained in expansion of long range potentials
+&END
+&BPROP
+  raf = >>>RAF<<<,			! radius at which continued fraction method can be used
+&END
+

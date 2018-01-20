@@ -1,0 +1,19 @@
+&input
+  megul = >>>MEGUL<<<,  ! input from module CONGEN
+  icidg = >>>ICIDG<<<,   !0 - do not diagonalize for parallel, 1 - do diagonalise Hamiltonian matrix for serial
+  iexpc = 1,   ! prototype CI expansion flag - 1 for scattering calculation
+  icitg = 1,   ! CI target flag - 1 = perform CI target contraction
+  idiag = 2,   ! matrix element evaluation flag - 2 = do not evaluate pure target integrals
+  nftg = 0,    ! CI target vectors switch - 0 = use scattering wavefunctions to generated (phase corrected) target wavefunctions
+  ntgsym = >>>NTGSYM<<<,  ! number of target state symmetries (>1 in CAS calculations)
+  mcont = >>>MCONT<<<,   ! lambda value ('symmetry') of the continuum orbitals associated with each target state
+  notgt = >>>NOTGT<<<,  ! number of continuum orbitals associated with each target symmetry
+  numtgt = >>>NUMTGT<<<,  ! number of target states for each symmetries
+  ukrmolp_ints = >>>UKRMOLP<<<, !true if you run UKRmol+ suite, false for old version of code
+&end
+&cinorn
+  name = '>>>MOLECULE<<< CI calculation - >>>SPIN<<< >>>SYMMETRY<<<',
+  igh = 1,
+  NPFLG(1) = 0,
+  NPFLG(2) = 0,
+&end

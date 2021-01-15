@@ -1,5 +1,0 @@
-&gaustail
-  name = '>>>MOLECULE<<< - Tail integrals for diffuse Gaussians',
-  rmat = >>>RMAT<<<, ! R-matrix radius
-&end
-

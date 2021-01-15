@@ -1,4 +1,0 @@
-&input
-  title = '>>>MOLECULE<<< - orthogonalization of MOs'
-  ind = >>>IND<<<,    ! quartets of molecular orb. to use for orthogonalization for each symmetry
-&end

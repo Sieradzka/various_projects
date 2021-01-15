@@ -1,4 +1,0 @@
-&inputmo
-  title = '>>>MOLECULE<<< - Four Index Transformed Integrals',
-  iget = >>>IGET<<<, ! quartets giving all orbitals after othogonalization by swedmos
-&end
